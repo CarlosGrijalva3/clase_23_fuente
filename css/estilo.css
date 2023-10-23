@@ -1,0 +1,190 @@
+
+@font-face {/*1*/
+    font-family: hello_honey;
+    src: url(../fonts/hello_honey/hello\ honey.otf);
+}
+
+@font-face {/*2*/
+    font-family: hello kity;
+    src: url(../fonts/Hello\ Kitty.otf);
+}
+
+@font-face {/*3*/
+    font-family: beautiful_butterfly;
+    src: url(../fonts/beautiful_butterfly/Beautiful\ Butterfly.otf);
+}
+
+@font-face {/*3*/
+    font-family: Milku;
+    src: url(../fonts/Milku.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: #1f1f1f;
+}
+
+body{
+    width: 750px;
+    height: 1000px;
+    margin: auto;
+    background: rgb(255, 243, 245);
+    /*font-family: 'Milku';*/
+}
+
+
+/*--------------------U--------------------*/
+
+section#banner{
+    width: 250px;
+    height: 250px;
+    font-family: 'Milku';
+    float: left;
+    background: #f76d63;
+}
+
+section#logo{
+    width: 250px;
+    height: 250px;
+    font-family: 'hello kity';
+    float: left;
+    background: #f76d63;
+
+}
+
+section#login{
+    width: 250px;
+    height: 250px;
+    font-family: 'beautiful_butterfly';
+    float: left;
+    background: #f76d63;
+
+}
+
+.caja{/*posicion de las cajas*/
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+}
+
+
+#uno{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    color:  rgb(255, 255, 255);
+
+}
+#dos{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    color:  rgb(255, 255, 255);
+ 
+}
+#tres{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    color: rgb(255, 247, 248);
+}
+
+/*--------------------DO--------------------*/
+
+nav{
+    width: 750px; 
+    height: 250px;
+    /*background: #1f1f1f;*/
+    font-family: 'hello_honey';
+    font-size: 20px;
+    /*box-shadow: 10px 10px 5px rgb(142, 250, 241);*/
+    float: left;
+
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+
+}
+
+section#inicio{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background: #fffd74;
+}
+section#producto{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background: #fffd74;
+    
+}
+section#contacto{
+    width: 250px;
+    height: 250px;
+    float: right;
+    background: #fffd74;
+}
+
+/*--------------------TRES--------------------*/
+
+main{
+    width: 750px;
+    height: 250px;
+    color: #ffffff;
+    font-family: 'Milku';
+    /*box-shadow: 10px 10px 10px #f76d63;*/
+    font-size: 50px;
+}
+
+aside#hoy{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background:  rgb(142, 250, 241);
+}
+
+article#novedades{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background:  rgb(142, 250, 241);
+}
+
+aside#internacional{
+    width: 250px;
+    height: 250px;
+    float: right;
+    background:  rgb(142, 250, 241);
+}
+
+/*--------------------cuatro--------------------*/
+
+footer{
+    width: 750px; height: 250px;
+    font-size: 30px;
+    font-size: 50px;
+    color: white;
+    font-family: 'hello kity';
+}
+
+aside#credito{
+    width: 250px; height: 250px;
+    background: #f76d63;
+    float: left;
+}
+
+article#lugar{
+    width: 250px; height: 250px;
+    background: #f76d63;
+    float: left;
+}
+
+aside#correo{
+    width: 250px; height: 250px;
+    background: #f76d63;
+    float: right;
+}
